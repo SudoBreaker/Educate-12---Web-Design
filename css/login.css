@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+p{
+  font-size: 12px;
+}
+
+label {
+  font-weight: bold;
+}
+
+hr {
+  border-color: red;
+}
+
+
+body {
+  color: #fff;
+  background-image: url("../images/background/bg11.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+
+.regForm {
+  padding: 10% 15%;
+  margin: 5% 2%;
+  margin-bottom: 20%;
+  box-shadow: 2px 2px 15px #fff;
+}
+
+.logo {
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+
+.logo img{
+  width: 80%;
+  background-color: #fff;
+  padding: 20% 10%;
+  border-radius: 30%;
+
+}
+
+.container-fluid{
+  text-align: center;
+}
+
+.container-fluid h1{
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #fff;
+}
+
+.container-fluid h2{
+  font-size: 25px;
+  padding: 0 5%;
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0px;
+    border: 0px;
+    font-size: 21px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+p span {
+  font-weight: bold;
+}
+
+.btn-submit {
+  text-align: center;
+}

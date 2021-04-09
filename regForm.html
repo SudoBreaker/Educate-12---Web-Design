@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <title>E12 - Tutor Registration Form</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- SWIPER CSS -->
+  <link rel="stylesheet" href="css/swiper.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- CSS spreadsheet -->
+  <link rel="stylesheet" href="css/login.css">
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- font Awesome -->
+  <script src="https://kit.fontawesome.com/95759b587d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section id="regContent">
+    <div class="container-fluid">
+      <h1>Teach With Us</h1>
+      <h2>Complete the form below to apply to teach for extra classes - ensure to select school
+        or undergraduate university classes. We offer excellent remuneration options. We will refer
+        students to you as they apply for extra help classes.</h2>
+    </div>
+
+    <form class="regForm" action="index.html" method="post">
+
+      <div class="logo">
+        <img src="images/logo/logo.png" alt="E12">
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputFirst">First_Name *</label>
+          <input type="text" class="form-control" placeholder="Your Firstname">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputLast">Last_Name *</label>
+          <input type="text" class="form-control" placeholder="Your Lastname">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputPhone">Phone *</label>
+          <input type="tel" class="form-control" placeholder="Your Phone">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputEmail">Email *</label>
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPhone">WhatsApp Number *</label>
+          <input type="tel" class="form-control" placeholder="Your Phone">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="form-group">
+        <label for="inputAddress2">Address *</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Street Address (Example: 12 Orange Street)">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">City *</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">Province *</label>
+          <select id="inputState" class="form-control">
+            <option selected>Choose...</option>
+            <option>Mpumalanga</option>
+            <option>Gauteng</option>
+            <option>North West</option>
+            <option>Kwazulu-Natal</option>
+            <option>Limpopo</option>
+            <option>Western Cape</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputZip">Zip *</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="form-group">
+        <label for="exampleFormControlFile1">Provide us with your Selfie</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+      <p>Please provide a picture of yourself</p>
+
+      <hr>
+
+      <div class="form-group">
+        <label for="exampleFormControlFile1">Upload CV and Academic Record</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+      <p>Please upload your CV attached with your academic record (diploma, degree or grades received).
+        Please ensure that your CV includes information about your past experience and present position</p>
+
+      <hr>
+
+      <label for="">School or Tertiary *</label>
+      <select class="form-control">
+        <option>Choose</option>
+        <option>School</option>
+        <option>Tertiary</option>
+        <option>Both</option>
+      </select>
+      <p>Choose whether you want teach School or Tertiary extra classes</p>
+
+      <hr>
+
+      <label for="">List the subject/s you want to teach *</label>
+      <div class="form-row">
+        <div class="form-group col-md-3">
+          <label for="inputSub1">Subject 1 *</label>
+          <input type="text" class="form-control" placeholder="Subject Name">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputSub2">Subject 2</label>
+          <input type="text" class="form-control" placeholder="Subject Name">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputSub3">Subject 3</label>
+          <input type="text" class="form-control" placeholder="Subject Name">
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputSub4">Subject 4</label>
+          <input type="text" class="form-control" placeholder="Subject Name">
+        </div>
+
+      </div>
+
+      <hr>
+
+      <label for="">Languages you willing or able to teach in *</label>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            English
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Afrikaans
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Zulu
+          </label>
+        </div>
+      </div>
+
+      <hr>
+
+      <label for="">Do you agree with the tutoring hours set out below? *</label>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Yes
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            No
+          </label>
+        </div>
+      </div>
+
+      <p> <span>NB:</span> Tutors who want to offer School/Tertiary classes should be available every weekend</p>
+
+      <label for="">Note that we will give preference to highly available tutors</label>
+
+      <p>Please consider the difficulty of your course if you are still studying. Any dates and times you'll be
+      given should be permanently available during semesters and especially during tests and exams of scholars/students</p>
+
+      <hr>
+
+      <label for="">Comment</label>
+
+      <textarea name="message" class="form-control" placeholder="Type your Message"></textarea>
+
+      <hr>
+
+      <label for="">Do you meet our academic requirements? *</label>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios"
+          id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Yes
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios"
+          id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            No
+          </label>
+        </div>
+      </div>
+      <p>
+          <span>Our academic requirements include:</span>
+      </p>
+
+      <p>1. You scored more than 55% at School or 60% at Tertiary in each of the subjects you would like to teach</p>
+      <p>2. You have atleast a diploma/bachelors degree</p>
+      <p>3. You communicate fluently with the language you willing to teach with</p><br>
+      <p>Please note that we give preference to students who obtained distinctions in the course.</p>
+
+      <hr>
+
+      <div class="col-auto btn-submit">
+        <button type="submit" class="btn btn-primary btn-lg mb-2">Submit</button>
+      </div>
+
+
+    </form>
+
+
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>
